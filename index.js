@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
 
-const PORT  = 3002;
-const wss = new WebSocket.Server({ port: 3002 });
+const PORT  = 3003;
+const wss = new WebSocket.Server({ port: PORT });
 const peers = new Map(); 
 
 const getClients = async () => { 
